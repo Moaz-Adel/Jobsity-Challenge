@@ -1,0 +1,45 @@
+{
+  "name": "Jobsity-challenge",
+  "version": "1.0.0",
+  "description": "Testing Challenge for Jobsity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "@shelex/cypress-allure-plugin": "^2.26.2",
+    "@types/node": "^18.0.0",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^10.10.0",
+    "cypress-axe": "^1.0.0",
+    "cypress-grep": "^2.6.1",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "faker": "^5.5.3",
+    "lighthouse": "^9.6.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "pg": "^8.8.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.27.6",
+    "@babel/eslint-parser": "^7.17.0",
+    "@types/webrtc": "^0.0.33",
+    "cypress-visual-regression": "^1.6.3",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.1.0",
+    "mochawesome-report-generator": "^6.1.0",
+    "node-postgres": "^0.6.2",
+    "npm-groovy-lint": "^9.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moaz-Adel/Jobsity-Challenge.git"
+  },
+  "author": "Moaaz Adel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moaz-Adel/Jobsity-Challenge/issues"
+  },
+  "homepage": "https://github.com/Moaz-Adel/Jobsity-Challenge#readme"
+}
