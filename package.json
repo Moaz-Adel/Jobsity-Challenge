@@ -4,7 +4,9 @@
   "description": "Testing Challenge for Jobsity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:test:report": "npm run allure:clear ; npx cypress run --env allure=true; allure generate; allure serve",
+    "cy:test": "npx cypress run",
+    "allure:clear": "rm -rf allure-results && rm -rf allure-report && rm -rf cypress/screenshots && rm -rf cypress/videos"
   },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.5",
